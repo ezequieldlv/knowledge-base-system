@@ -1,0 +1,59 @@
+site_name: Site Sosa
+# site_url: https://tudominio.com (Puedes dejarlo comentado hasta que despliegues)
+
+theme:
+
+  name: material
+
+  palette: 
+
+    scheme: slate # Base oscura
+
+    primary: black # Esto ayuda, pero el CSS hará el trabajo pesado
+
+    accent: deep purple
+
+  features:
+
+    - navigation.instant     # Carga rápida
+
+    - navigation.tracking    # Resalta la sección actual
+
+    - navigation.expand      # Abre el menú automáticamente
+
+    - search.suggest         # Sugerencias de búsqueda
+
+    - search.highlight       # Resaltado de resultados
+
+    - content.code.copy      # Botón copiar código
+
+
+markdown_extensions:
+
+  - admonition
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - attr_list
+
+  - md_in_html
+
+  - pymdownx.emoji:
+
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+
+      emoji_generator: !!python/name:materialx.emoji.to_svg 
+
+extra_css:
+  - stylesheets/extra.css
+
+# === ESTRUCTURA DEL MENÚ ===
+nav:
+  - Home: index.md
+  - Autogestión: Autogestion/index.md
+  - Speechs: Speechs/index.md
+  - Herramientas: Herramientas/index.md
+  - Wiki Técnica: Wiki-tecnica/index.md
+  - Equipo: Equipo/index.md

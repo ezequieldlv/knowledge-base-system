@@ -1,0 +1,21 @@
+/* === ESTILOS GLOBALES (Site Sosa) === */
+
+/* LOGO  UNIVERSAL */
+/* 1. Ocultamos el svg/icono original del tema */
+.md-header__button.md-logo svg, 
+.md-header__button.md-logo img { 
+  display: none !important; 
+}
+
+/* 2. Ponemos tu imagen de fondo */
+.md-header__button.md-logo {
+  background-image: url('../assets/iconos/sosa-icon.jpeg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px; 
+  height: 50px;
+  border-radius: 4px;
+  opacity: 1 !important;
+  margin-right: 10px; 
+}
