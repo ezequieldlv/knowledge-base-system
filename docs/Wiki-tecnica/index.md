@@ -6,7 +6,7 @@ hide:
 ---
 
 <style>
-  /* === WIKI TÉCNICA: ESTILOS DE SISTEMA === */
+  /* === WIKI TÉCNICA === */
   
   :root {
     --bg-page: #050505;

@@ -192,11 +192,11 @@ hide:
   <div class="col-left">
     <div class="dash-title">EXPLORADOR</div>
     <div style="display: flex; flex-direction: column;">
-      <a href="autogestion/" class="quick-btn" target="_blank"><span class="btn-icon">📊</span> Autogestión</a>
-      <a href="speechs/" class="quick-btn" target="_blank"><span class="btn-icon">💬</span> Speechs</a>
-      <a href="herramientas/" class="quick-btn" target="_blank"><span class="btn-icon">🧰</span> Herramientas</a>
-      <a href="wiki-tecnica/" class="quick-btn" target="_blank"><span class="btn-icon">🛠️</span> Wiki Técnica</a>
-      <a href="equipo/" class="quick-btn" target="_blank"><span class="btn-icon">👥</span> Equipo</a>
+      <a href="autogestion/" class="quick-btn" ><span class="btn-icon">📊</span> Autogestión</a>
+      <a href="speechs/" class="quick-btn" ><span class="btn-icon">💬</span> Speechs</a>
+      <a href="herramientas/" class="quick-btn" ><span class="btn-icon">🧰</span> Herramientas</a>
+      <a href="wiki-tecnica/" class="quick-btn" ><span class="btn-icon">🛠️</span> Wiki Técnica</a>
+      <a href="equipo/" class="quick-btn" ><span class="btn-icon">👥</span> Equipo</a>
     </div>
   </div>
 

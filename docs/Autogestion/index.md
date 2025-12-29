@@ -7,7 +7,7 @@ hide:
 ---
 
 <style>
-  /* === AUTOGESTIÓN: FINAL GOLD VERSION (320px) === */
+  /* === AUTOGESTIÓN === */
   
   :root {
     --bg-page: #050505;
@@ -63,7 +63,7 @@ hide:
     box-shadow: -5px 0 20px var(--accent-glow); display: flex; align-items: center;
   }
 
-  /* 5. SPLIT CARD SYSTEM (HEIGHT 320px - EL PUNTO PERFECTO) */
+  /* 5. SPLIT CARD SYSTEM */
   .split-card {
     display: flex;
     background: var(--card-bg);

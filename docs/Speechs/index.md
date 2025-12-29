@@ -12,7 +12,7 @@ hide:
     /* Variables de Color */
     --bg-page: #050505;
     --card-bg: #161616;
-    --code-bg: #000000; /* Fondo negro puro para la terminal */
+    --code-bg: #000000; 
     --accent: #d8b4fe;
     --accent-glow: rgba(216, 180, 254, 0.15);
     --accent-strong-glow: rgba(216, 180, 254, 0.4);
