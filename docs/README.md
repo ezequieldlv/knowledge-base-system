@@ -22,6 +22,14 @@ I engineered a **Docs-as-Code** solution to centralize operations, strictly foll
 * **Styling:** CSS3 (Custom Variables & Animations).
 * **Deployment:** Netlify (CI/CD).
 
+## 🔄 Transformation (Legacy vs Modern)
+Witness the evolution from a static, slow interface to a high-performance SRE-grade platform.
+
+| **Legacy System (Google Sites)** | **New Knowledge Base (MkDocs)** |
+|:--------------------------------:|:-------------------------------:|
+| ![Old System](./assets/screenshots/legacy_google_site.png) | ![New System](./assets/screenshots/modern_mkdocs.png) |
+| *Slow, decentralized, hard to maintain.* | *<100ms load, Dark Mode, Git-backed.* |
+
 ## 📸 Features
 * **Service Monitor:** Real-time KPI dashboard simulation.
 * **Interactive Scripts:** "Copy-to-clipboard" functionality for support scripts.
