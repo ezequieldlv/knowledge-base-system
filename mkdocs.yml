@@ -1,5 +1,5 @@
 site_name: Site Sosa
-# site_url: https://tudominio.com (Puedes dejarlo comentado hasta que despliegues)
+site_url: https://site-sosa.netlify.app
 
 theme:
 
@@ -9,7 +9,7 @@ theme:
 
     scheme: slate # Base oscura
 
-    primary: black # Esto ayuda, pero el CSS hará el trabajo pesado
+    primary: black 
 
     accent: deep purple
 
