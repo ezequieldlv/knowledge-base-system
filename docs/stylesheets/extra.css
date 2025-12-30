@@ -9,7 +9,7 @@
 
 /* 2. Ponemos imagen de fondo */
 .md-header__button.md-logo {
-  background-image: url('../assets/iconos/sosa-icon.jpeg'); 
+  background-image: url('../assets/iconos/sosa-icon.png'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

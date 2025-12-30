@@ -186,12 +186,27 @@ hide:
   }
   .md-content__button, .md-icon--edit, a[href*="edit"] { display: none !important; }
 
+  /* === TOAST NOTIFICATION === */
+  #clipboard-toast {
+    visibility: hidden; min-width: 250px; margin-left: -125px;
+    background-color: #333; color: #fff; text-align: center;
+    border-radius: 4px; padding: 16px; position: fixed; z-index: 100;
+    left: 50%; bottom: 30px; font-size: 17px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); border: 1px solid var(--accent);
+  }
+  #clipboard-toast.show { visibility: visible; animation: fadein 0.5s, fadeout 0.5s 2.5s; }
+  
+  @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+  @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+
   /* FIX FINAL */
   summary.wiki-trigger::before, summary.speech-trigger::before{ content: none !important; display: none !important; }
 
 </style>
 
 # Wiki Técnica
+
+<div id="clipboard-toast">Link copiado al portapapeles ✅</div>
 
 ## 📋 Gestión & Plantillas
 
@@ -304,6 +319,16 @@ hide:
       <div class="wiki-img-container">
         <img src="../assets/wiki/TIPOS DE FLOW.png" alt="Tipos de Flow" class="wiki-img">
       </div>
+      <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #333; text-align: center;">
+          <a href="https://basedeconocimientos.custhelp.com/app/answers/detail/a_id/7448/kw/flow" target="_blank" style="
+            display: inline-flex; align-items: center;
+            background: #161616; border: 1px solid var(--accent); padding: 12px 20px; border-radius: 4px;
+            color: var(--accent); text-decoration: none; font-weight: bold; transition: 0.2s;
+          ">
+            <span style="margin-right: 10px;">📺</span> 
+            Todo Flow
+          </a>
+        </div>
     </div>
   </details>
 
@@ -322,6 +347,25 @@ hide:
       <div class="wiki-img-container">
         <img src="../assets/wiki/parametros.webp" alt="Parámetros Señal" class="wiki-img">
       </div>
+    </div>
+  </details>
+
+  <details class="wiki-item">
+    <summary class="wiki-trigger">🏁 Grilla Flow</summary>
+    <div class="wiki-content">
+      <div class="wiki-img-container">
+        <img src="../assets/wiki/grilla-flow.webp" alt="Parámetros Señal" class="wiki-img">
+      </div>
+      <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #333; text-align: center;">
+        <a href="https://click/customer/condiciones/condiciones/APPS/grillaCanales/"  class="copy-link" style="
+          display: inline-flex; align-items: center;
+          background: #161616; border: 1px solid var(--accent); padding: 12px 20px; border-radius: 4px;
+          color: var(--accent); text-decoration: none; font-weight: bold; transition: 0.2s;
+        ">
+          <span style="margin-right: 10px;">🔻</span> 
+          App Grillas
+        </a>
+    </div>
     </div>
   </details>
 
@@ -488,3 +532,27 @@ hide:
   </details>
 
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const copyLinks = document.querySelectorAll('.copy-link');
+
+    copyLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const url = this.href;
+        navigator.clipboard.writeText(url).then(() => {
+          showToast();
+        }).catch(err => {
+          console.error('Error al copiar: ', err);
+        });
+      });
+    });
+
+    function showToast() {
+      const x = document.getElementById("clipboard-toast");
+      x.className = "show";
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
+  });
+</script>

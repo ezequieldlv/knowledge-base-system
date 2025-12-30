@@ -5,6 +5,10 @@ theme:
 
   name: material
 
+  favicon: assets/iconos/sosa-icon.png
+
+  logo: assets/iconos/sosa-icon.png
+
   palette: 
 
     scheme: slate # Base oscura

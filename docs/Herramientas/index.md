@@ -163,7 +163,7 @@ hide:
     <div class="tool-icon">📖</div>
     <div class="tool-info">
       <div class="tool-header">
-        <span class="tool-title">Knowledge Base</span>
+        <span class="tool-title">BC</span>
         <div class="status-dot"></div>
       </div>
       <span class="tool-desc">Base de Conocimientos</span>
@@ -316,7 +316,7 @@ hide:
     </div>
   </a>
 
-  <a href="https://solucionesdigitales.telecom.com.ar/apps/guia_migra_internet/" target="_blank" class="tool-card">
+  <a href="https://solucionesdigitales.telecom.com.ar/apps/guia_migra_internet/" class="tool-card copy-link">
     <div class="tool-icon">🛠️</div>
     <div class="tool-info">
       <div class="tool-header">
