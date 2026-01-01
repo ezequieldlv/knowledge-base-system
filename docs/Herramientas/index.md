@@ -211,6 +211,17 @@ hide:
     </div>
   </a>
 
+  <a href="https://telecomcrm.lightning.force.com/lightning/page/home" target="_blank" class="tool-card">
+    <div class="tool-icon">☁️</div>
+    <div class="tool-info">
+      <div class="tool-header">
+        <span class="tool-title">FAN</span>
+        <div class="status-dot"></div>
+      </div>
+      <span class="tool-desc">CRM</span>
+    </div>
+  </a>
+
   <a href="https://frontocs.personal.corp/#/signin" class="tool-card copy-link">
     <div class="tool-icon">📲</div>
     <div class="tool-info">
@@ -355,7 +366,7 @@ hide:
     </div>
   </a>
 
-  <a href="https://docs.google.com/spreadsheets/d/1hKZP3XEAOeHTe7zd-_ZlEcw1_NXvcBgzoryguYuPm0c/edit?gid=0#gid=0" target="_blank" class="tool-card">
+  <a href="https://tinyurl.com/nodos-reportados" target="_blank" class="tool-card">
     <div class="tool-icon">📊</div>
     <div class="tool-info">
       <div class="tool-header">
