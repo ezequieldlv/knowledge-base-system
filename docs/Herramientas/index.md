@@ -218,7 +218,7 @@ hide:
         <span class="tool-title">FAN</span>
         <div class="status-dot"></div>
       </div>
-      <span class="tool-desc">CRM</span>
+      <span class="tool-desc">CRM </span>
     </div>
   </a>
 
