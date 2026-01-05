@@ -194,6 +194,17 @@ hide:
     </div>
   </a>
 
+  <a href="https://tinyurl.com/lineamento-teco" target="_blank" class="tool-card">
+    <div class="tool-icon">📏</div>
+    <div class="tool-info">
+      <div class="tool-header">
+        <span class="tool-title">Lineamiento</span>
+        <div class="status-dot"></div>
+      </div>
+      <span class="tool-desc">Normas y reglas de atencion</span>
+    </div>
+  </a>
+
 </div>
 
 <h2>💻 Sistemas de Gestión</h2>
