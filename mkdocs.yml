@@ -54,9 +54,9 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
-analytics:
-  provider: google
-  property: G-BM9YVH9MP4
+  analytics:
+    provider: google
+    property: G-BM9YVH9MP4
 
 # === ESTRUCTURA DEL MENÚ ===
 nav:
