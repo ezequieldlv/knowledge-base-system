@@ -171,9 +171,49 @@ Para que tu dispositivo pueda visualizar esta red, deberá de contar con una pla
 
 <details class="speech-item">
 <summary class="speech-trigger">Problema IP Starlink</summary>
-<pre><code>En este caso el internet de Starlink está asignando una IP de otro país a los dispositivos, esto ocasiona que la app tenga estos problemas a la hora de cargar contenido ya que está habilitado solo para Argentina
+<pre><code>
+Te explico por qué sucede esto: Starlink es un servicio de internet satelital que brinda cobertura en varias regiones del mundo. Aunque te encuentres físicamente en Argentina, el sistema de Starlink puede asignar direcciones IP que no necesariamente coinciden con tu ubicación geográfica. En este caso, tu conexión está siendo identificada con una IP de otro pais. Por otro lado, la plataforma Flow tiene restricciones geográficas que solo permiten el acceso a usuarios con IP dentro de Argentina. Como tu IP es identificada como chilena, el sistema bloquea el acceso por no cumplir con los requisitos regionales establecidos.
 
 Te recomiendo contactarte con su centro de ayudas en la pagina de starlink.com para verificar si pueden cambiarla o podes tratar de reiniciar el modem para que te brinde una ip argentina</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Buenas Prácticas del Modem</summary>
+<pre><code>Te comento para que no te vuelva a fallar, te recomiendo que una vez por semana los dejes desenchufados durante 2 minutos y los vuelvas a conectar, esto ayuda a liberar la memoria del dispositivo e instala las actualizaciones nuevas.
+
+Recordá tener el módem a más de un metro del piso para garantizar su correcto funcionamiento. El mismo debe encontrarse en un espacio abierto, y no tiene que estar cerca de objetos que emitan ondas (teléfonos inalámbricos, microondas, parlantes, etc.) u objetos metálicos, peceras o fuentes de agua para evitar interferencias.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Uptime (dias sin reinicio)</summary>
+<pre><code>🕰️ ¿Por qué pasa esto? Básicamente, el módem tiene como un “relojito” interno que cuenta el tiempo desde su último reinicio. Si ese reloj lleva demasiado tiempo funcionando sin pausa, pueden empezar a aparecer fallas o comportamientos raros. Por eso, lo ideal es reiniciarlo al menos una vez por semana, o cada dos como máximo. Es un truco simple que ayuda a que todo funcione más estable y sin sorpresas 📶🔁</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Corte por falta de Luz (Edificio)</summary>
+<pre><code>El motivo por el que tu servicio no está funcionando en este momento es el siguiente: En los edificios, la energía eléctrica se divide en dos tipos de circuitos. Uno es para los departamentos individuales, y el otro es para los servicios comunes del edificio, como el ascensor o las luces del pasillo. Nuestra caja de internet, la que te brinda el servicio, está conectada a este último circuito, el de las áreas comunes (es el mismo que alimenta el ascensor). Por eso, si ese circuito de energía tiene un corte o una falla, lamentablemente, el servicio de internet también se ve afectado y deja de funcionar.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Guía Reset Factory Modem</summary>
+<pre><code>Detras del modem veras una agujero pequeño, te pido que con un alfiler presionemos dentro para poder reiniciar el modem de fabrica. Ingresemos el alfiler hasta que reinicie el modem y aguardemos que inicie nuevamente</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Explicación Velocidad Wifi</summary>
+<pre><code>Queremos comentarte que, si bien contrataste un servicio de 300 Mbps, esa velocidad máxima se mide en condiciones óptimas y suele aplicarse principalmente a conexiones por cable directamente al módem. 📡
+
+Conexiones por WiFi y variabilidad: Al conectarte por WiFi en la banda de 5.8 GHz, diversos factores pueden afectar la velocidad que llega a tu celular:
+Distancia al módem: Cuanto más lejos estés, menor será la intensidad de la señal.
+Obstáculos físicos: Paredes, muebles o materiales que interfieren con la señal.
+Interferencias: Otros dispositivos electrónicos cercanos o redes vecinas pueden generar interferencias.
+Capacidad del dispositivo: Algunos celulares tienen limitaciones en el hardware que afectan la velocidad máxima que pueden recibir por WiFi.
+Congestión de red: Si hay varios dispositivos conectados a la red al mismo tiempo, la velocidad disponible para cada uno se reparte.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Continuidad GB (Backup)</summary>
+<pre><code>Desde ya, te solicito disculpas por las molestias ocasionadas🙏 y te recordamos que desde nuestra App Mi Personal Flow podes seguir online activando los GB de continuidad🤗 Ingresas en la opción "hogar ver/servicios" donde podrás verificar afectación en zona, seguimiento y activación del pack para seguir navegando! Se tratan de 50GB  de uno libre sin costo adicional para que puedas activar en todas las lineas que tengas bajo la misma titularidad del servicio hogar, tendrán una duración de 24 horas❤</code></pre>
 </details>
 
 </div>
@@ -239,6 +279,24 @@ Si querés, te puedo ayudar paso a paso para descargarla y dejarla lista 🙌 Qu
 ▶ Video de ayuda: Te comparto este video por si necesitás una guía más visual: https://youtu.be/YSSzPgWYItE?si=XHL5DpDTF49Lg2q-</code></pre>
 </details>
 
+<details class="speech-item">
+<summary class="speech-trigger">Info Pack Fútbol</summary>
+<pre><code>El Pack Fútbol cuenta con las señales ESPN PREMIUM y TNT SPORT PREMIUM de transmisión 24/7 de contenido deportivo, incluyendo los partidos de la liga profesional de fútbol argentino. La señal ESPN Premium se puede localizar en el canal 123 y la señal de TNT Sport premium en el canal 124. Te recuerdo que solo podrán verse en un dispositivo a la vez. Solo afecta a App, Web y Smart TV. En los decos no hay inconvenientes con simultaneidad.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">HDMI Dañado</summary>
+<pre><code>Te comento que el cable HDMI entregado con el decodificador es una cortesía que se brinda solo al momento de la instalación. No forma parte del servicio contratado, por lo que no podemos enviar un técnico para reemplazarlo o entregarlo nuevamente. Si necesitás otro cable, podés conseguirlo fácilmente en cualquier tienda de electrónica. ¡Gracias por tu comprensión!</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Forzado Upgrade (Reset Deco)</summary>
+<pre><code>Te voy a pedir que realices los siguientes pasos en el decodificador:
+📍 Mantener presionado el boton delantero del deco al menos 4 segundos y sin soltarlo pasar al siguiente paso.
+📍 Desconectar el cable de corriente electrica (El cable más chico) del deco mientras sigue presionando el botón delantero.
+📍 Volver a conectar el cable de corriente electrica y no soltar el botón hasta que veas en la pantalla el logo de Flow Es muy importante que no sueltes el botón en ningún momento hasta que aparezca el logo de Flow 🙌🏻</code></pre>
+</details>
+
 </div>
 
 ## 🛠️ Gestión Técnica y Admin
@@ -271,6 +329,11 @@ En caso no recibirlo, comunícate nuevamente con nosotros luego de las 18:00 hs.
 </details>
 
 <details class="speech-item">
+<summary class="speech-trigger">Sin Agenda Disponible (Falla sistema)</summary>
+<pre><code>Lamentamos mucho los inconvenientes que estás teniendo con el servicio. En este momento, el sistema no me permite agendarte directamente una visita técnica, es posible que haya una falla interna. Ya gestioné el reclamo bajo el número [Número del caso]. ☎️ También informé tu situación a la base técnica de tu zona. Ellos van a contactarte en cuanto puedan para coordinar una visita al domicilio con la mayor urgencia posible. Esta gestión quedó registrada con el número [Id Ticket]. 🙏 A nombre de la empresa, queremos asegurarte que estamos haciendo lo posible para resolverlo cuanto antes. Gracias por tu paciencia y confianza.</code></pre>
+</details>
+
+<details class="speech-item">
 <summary class="speech-trigger">Nota de Crédito</summary>
 <pre><code>📄 El número de gestión correspondiente es: [Número de gestión].
 
@@ -287,8 +350,78 @@ En caso no recibirlo, comunícate nuevamente con nosotros luego de las 18:00 hs.
 </details>
 
 <details class="speech-item">
+<summary class="speech-trigger">Soluciona por otro medio</summary>
+<pre><code>Veo que pudiste resolver tu solicitud a través de otros canales. Este medio queda disponible para vos en caso de necesitar asistencia adicional. ¡Gracias por tu contacto y que tengas una excelente tarde!</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">No va el Técnico (Reagenda)</summary>
+<pre><code>Lamentamos sinceramente la situación. No es nuestra intención generar inconvenientes, y le pedimos disculpas por la ausencia del servicio técnico en el horario pactado.
+
+En este momento, podemos coordinar una nueva visita a la brevedad para solucionar el inconveniente lo antes posible. Por favor, indíquenos su disponibilidad para que podamos programar la asistencia técnica en el menor tiempo posible.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Pase a Red (Cuadrilla zona)</summary>
+<pre><code>Veo que en su visita técnica se derivó el trabajo a la cuadrilla técnica de la zona para que puedan restablecer el servicio. Te pido disculpas por los inconvenientes, el tiempo de resolución es de hasta 72 horas hábiles, retomará el servicio de forma automática pasado el trabajo. El número de gestión es: X.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Problema Climático (Reagenda)</summary>
+<pre><code>Comprendemos que el día de la visita no hubo lluvia, sin embargo, las precipitaciones de los días anteriores dejaron el terreno en condiciones que no garantizaban la seguridad ni la calidad del trabajo. Nuestra política es priorizar la integridad de las personas y el cuidado de su propiedad, por lo que decidimos reprogramar la visita. Podemos coordinar una nueva fecha en cuanto el clima y el terreno estén en condiciones óptimas para realizar el servicio como corresponde.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Falta de Respeto (Advertencia)</summary>
+<pre><code>Lamento la situación, voy a necesitar que mantengamos una conversación respetuosa para poder ayudarte con lo que te está sucediendo. Mi prioridad es que puedas disfrutar del servicio y encontrar juntos la solución. De no ser así debo finalizar la conversación</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Contención Masivo</summary>
+<pre><code>Lamento mucho lo que estás atravesando, y te pido disculpas en nombre de la empresa por los inconvenientes. Entiendo perfectamente tu frustración, y quiero que sepas que estamos encima del tema. Acabo de solicitarle a los técnicos que agilicen las tareas de reparación en la zona para que pronto puedas contar con el servicio como corresponde.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Contención Baja</summary>
+<pre><code>Lamento escuchar esto. Entiendo totalmente tu situación y te aseguro que tenés total disposición de mi parte para que podamos solucionarlo.
+Si me das una última oportunidad, estoy seguro de que podemos encontrar una solución.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Adelanto Cita</summary>
+<pre><code>En este caso, es lo más cercano que me figura disponible en sistema. Pero quiero darte la tranquilidad de que estaré cargando un reclamo interno para que la visita se pueda llevar a cabo antes de esa fecha. Directamente, te llegará un mensaje confirmando la fecha más cercana dentro de las próximas 72 hs hábiles.
+Voy a estar pendiente del seguimiento para que se agilice lo máximo posible.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Cliente quiere visita mismo día</summary>
+<pre><code>Te aseguro que de tener disponibilidad para el día de hoy, lo asignaría. Pero en este caso, la visita más próxima disponible es para el día X.
+Desde la app de Mi Personal, en la parte de “Asistencia técnica”, podés verificar las visitas disponibles.
+Mientras tanto, puedo ayudarte a revisar el estado desde acá para agilizar el proceso. ¿Te puedo ayudar con algo más?</code></pre>
+</details>
+
+<details class="speech-item">
 <summary class="speech-trigger">No quiere realizar chequeos</summary>
 <pre><code>Entiendo que prefieras no hacer los chequeos, pero para avanzar es necesario realizar el análisis correspondiente. ✨ Si cambias de opinión, podemos continuarlos y resolver tu consulta. De lo contrario, quedamos atentos a tu próximo contacto, que tengas una linda noche! ☺️</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Contencion: No quiere hacer chequeos</summary>
+<pre><code>Comprendo tu descontento con la situación. Por eso, de mi parte, quiero hacer todo lo necesario para poder brindarte una solución.
+Te aseguro que realizando los chequeos que te menciono podremos dar con la misma. Solo te pido unos minutos para que podamos avanzar juntos hacia la solución.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Ya realizó chequeos antes</summary>
+<pre><code>Entiendo que estuviste realizando estas pruebas, y agradezco que lo hayas hecho. Eso nos ayuda mucho.
+Sin embargo, debemos tener en cuenta que el estado de los equipos no es el mismo que el día X. Por ello, te pido que las realicemos nuevamente, así puedo ayudarte con el inconveniente.</code></pre>
+</details>
+
+<details class="speech-item">
+<summary class="speech-trigger">Escalamiento a Sistemas</summary>
+<pre><code>¡Gracias por la paciencia! Ya me encargué de elevarlo a sistemas y detallar todo esto bajo el número de gestión X.
+Recordá que esta área tiene un plazo máximo de 72 hs para poder solucionar el inconveniente, pero vamos a hacer todo lo posible para resolverlo cuanto antes. 
+Te pedimos disculpas por los inconvenientes ocasionados!</code></pre>
 </details>
 
 <details class="speech-item">
@@ -337,11 +470,18 @@ Por consultas administrativas 📋
 
 <details class="speech-item">
 <summary class="speech-trigger">Corporativo</summary>
-<pre><code>Te comento que las consultas por servicio corporativo se gestionan a través un número telefónico así que te comparto el mismo para que puedas comunicarte:
+<pre><code>
+📞 Gracias por tu consulta.
 
-📞 0800-555-7963 desde cualquier teléfono
+Como tu servicio es corporativo, para recibir atención especializada te recomendamos contactar directamente al área de Empresas. Podés hacerlo a través de cualquiera de estos canales:
 
-¡Te esperamos por este canal para ayudarte! 💚</code></pre>
+☎️ Teléfono (24 hs) : 0800-555-7963 / 0800 888 0800
+💬 WhatsApp (24 hs): 11 3100 2222
+🌐 Ayuda y Soporte online: https://www.telecom.com.ar/web/ayuda
+🔗 Link directo: https://t.co/gLSnoGW4pG
+
+El equipo de Fibercorp | Teco Corpo está disponible para ayudarte con lo que necesites.
+</code></pre>
 </details>
 
 <details class="speech-item">

@@ -288,6 +288,17 @@ hide:
     </div>
   </a>
 
+  <a href="https://teco-eco.lightning.force.com/lightning/" class="tool-card copy-link">
+    <div class="tool-icon">📂</div>
+    <div class="tool-info">
+      <div class="tool-header">
+        <span class="tool-title">ECO</span>
+        <div class="status-dot"></div>
+      </div>
+      <span class="tool-desc">Plataforma de escalamientos</span>
+    </div>
+  </a>
+
 </div>
 
 <h2>📡 Diagnóstico y Red</h2>

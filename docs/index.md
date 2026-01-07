@@ -210,9 +210,9 @@ hide:
         <div class="code-block">
           <span class="c">// Métricas Operativas - Tiempo Real</span><br><br>
           <span class="k">const</span> <span style="color:#fff">Performance</span> = {<br>
-           &nbsp;&nbsp;CIERRE: <span style="color: #FFD600; font-weight: 900;">"77.4%"</span>, <span class="c">// ⚠️ Objetivo Crítico</span><br>
-           &nbsp;&nbsp;NPS: <span class="s">"28%"</span>, <span class="c">// Net Promoter Score</span><br>
-           &nbsp;&nbsp;FCR: <span class="s">"76.3%"</span>, <span class="c">// First Call Resolution</span><br>
+           &nbsp;&nbsp;CIERRE: <span style="color: #FFD600; font-weight: 900;">"78.2%"</span>, <span class="c">// ⚠️ Objetivo Crítico</span><br>
+           &nbsp;&nbsp;NPS: <span class="s">"28.5%"</span>, <span class="c">// Net Promoter Score</span><br>
+           &nbsp;&nbsp;FCR: <span class="s">"76.5%"</span>, <span class="c">// First Call Resolution</span><br>
            &nbsp;&nbsp;REL: <span class="s">"80.7%"</span>, <span class="c">// Resolución en Línea</span><br>
            &nbsp;&nbsp;GXH: <span class="s">"4.46"</span> <span class="c">// Gestión x Hora</span><br>
           };<br><br>
