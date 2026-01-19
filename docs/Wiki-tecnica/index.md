@@ -259,6 +259,24 @@ hide:
   </details>
 
   <details class="wiki-item">
+    <summary class="wiki-trigger">🗜️ Planilla Proman</summary>
+    <div class="wiki-content">
+
+    ```text
+      DNI clte:
+      N cuenta:
+      LOCALIDAD:
+      N caso:
+      N OT:
+      SN o MAC disp a activar (GPON ID en caso de ONT):
+    ```
+
+    </div>
+  </details>
+
+   </details>
+
+  <details class="wiki-item">
     <summary class="wiki-trigger">📲 Planilla Carga GB</summary>
     <div class="wiki-content">
 

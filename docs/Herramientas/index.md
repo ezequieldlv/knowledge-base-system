@@ -232,15 +232,15 @@ hide:
       <span class="tool-desc">CRM</span>
     </div>
   </a>
-
-  <a href="https://frontocs.personal.corp/#/signin" class="tool-card copy-link">
-    <div class="tool-icon">📲</div>
+  
+  <a href="https://itracker.telecom.com.ar/" target="_blank" class="tool-card">
+    <div class="tool-icon">📍</div>
     <div class="tool-info">
       <div class="tool-header">
-        <span class="tool-title">SNAP</span>
+        <span class="tool-title">iTracker</span>
         <div class="status-dot"></div>
       </div>
-      <span class="tool-desc">Verificar GB</span>
+      <span class="tool-desc">Seguimiento Técnico</span>
     </div>
   </a>
 
@@ -254,37 +254,15 @@ hide:
       <span class="tool-desc">Gestión de Tickets</span>
     </div>
   </a>
-
-  <a href="http://srvapfabricdes2:8080/portal-consulta-usuario-dbs/" class="tool-card copy-link">
-    <div class="tool-icon">🆔</div>
+  
+  <a href="https://frontocs.personal.corp/#/signin" class="tool-card copy-link">
+    <div class="tool-icon">📲</div>
     <div class="tool-info">
       <div class="tool-header">
-        <span class="tool-title">IDP</span>
+        <span class="tool-title">SNAP</span>
         <div class="status-dot"></div>
       </div>
-      <span class="tool-desc">Consulta Usuario DBS</span>
-    </div>
-  </a>
-
-  <a href="https://ccip/" class="tool-card copy-link">
-    <div class="tool-icon">💻</div>
-    <div class="tool-info">
-      <div class="tool-header">
-        <span class="tool-title">CCIP</span>
-        <div class="status-dot"></div>
-      </div>
-      <span class="tool-desc">Gestión FTTH</span>
-    </div>
-  </a>
-
-  <a href="https://human-agent-tecob2c.ysocial.net/Default.aspx" class="tool-card copy-link">
-    <div class="tool-icon">🪄</div>
-    <div class="tool-info">
-      <div class="tool-header">
-        <span class="tool-title">Yoizen +</span>
-        <div class="status-dot"></div>
-      </div>
-      <span class="tool-desc">Plataforma de lideres</span>
+      <span class="tool-desc">Verificar GB</span>
     </div>
   </a>
 
@@ -296,6 +274,17 @@ hide:
         <div class="status-dot"></div>
       </div>
       <span class="tool-desc">Plataforma de escalamientos</span>
+    </div>
+  </a>
+
+  <a href="https://human-agent-tecob2c.ysocial.net/Default.aspx" class="tool-card copy-link">
+    <div class="tool-icon">🪄</div>
+    <div class="tool-info">
+      <div class="tool-header">
+        <span class="tool-title">Yoizen +</span>
+        <div class="status-dot"></div>
+      </div>
+      <span class="tool-desc">Plataforma de lideres</span>
     </div>
   </a>
 
@@ -338,14 +327,25 @@ hide:
     </div>
   </a>
 
-  <a href="https://itracker.telecom.com.ar/" target="_blank" class="tool-card">
-    <div class="tool-icon">📍</div>
+  <a href="https://ccip/" class="tool-card copy-link">
+    <div class="tool-icon">💻</div>
     <div class="tool-info">
       <div class="tool-header">
-        <span class="tool-title">iTracker</span>
+        <span class="tool-title">CCIP</span>
         <div class="status-dot"></div>
       </div>
-      <span class="tool-desc">Seguimiento Técnico</span>
+      <span class="tool-desc">Gestión FTTH</span>
+    </div>
+  </a>
+
+  <a href="http://srvapfabricdes2:8080/portal-consulta-usuario-dbs/" class="tool-card copy-link">
+    <div class="tool-icon">🆔</div>
+    <div class="tool-info">
+      <div class="tool-header">
+        <span class="tool-title">IDP</span>
+        <div class="status-dot"></div>
+      </div>
+      <span class="tool-desc">Consulta Usuario DBS</span>
     </div>
   </a>
 
